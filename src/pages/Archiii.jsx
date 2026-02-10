@@ -16,7 +16,7 @@ export default function Archiii() {
         <p>❤️ You are not an option, you are my choice.</p>
         <p>🌍 There are millions of girls in the world, but there is only one Archiii 💎</p>
       </div>
-        <br /><br />
+        <br />
     <div>Iss duniya ka sabse achhe insaan ki image dekhna chahegi ???</div>
 
 <button onClick={() => navigate("/photos")}>
