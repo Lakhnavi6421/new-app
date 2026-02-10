@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 const images = [
-  "public/her.png",
-  
+  "/her.png", // ✅ correct path
 ];
 
 export default function PhotoShow() {
@@ -13,12 +11,10 @@ export default function PhotoShow() {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
-    // Change image every 3 seconds
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
     }, 3000);
 
-    // Show button after 15 seconds
     const timer = setTimeout(() => {
       setShowButton(true);
       clearInterval(interval);
@@ -37,7 +33,7 @@ export default function PhotoShow() {
     >
       <div className="overlay">
         <h1>You look magical ✨💖</h1>
-        
+
         {showButton && (
           <button onClick={() => navigate("/proposal")}>
             <h4>I have a Question</h4>
