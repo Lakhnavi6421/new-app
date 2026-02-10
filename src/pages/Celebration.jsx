@@ -23,13 +23,15 @@ export default function Celebration() {
       <h1>Yayyyy 🥳❤️</h1>
       <p>You are officially my Valentine 💖</p>
       <p>You just made my day the happiest 😍</p>
-      <div>Hey Archiii 💕
+      <p>Hey Archiii 💕
 This world has millions of girls…
-but none of them is like you 💖</div>
+but none of them is like you 💖</p>
 
       <div className="dance">
+
         💃 🕺 💃 🕺 💃
       </div>
+<p>Ab surprise diya h to call Thanx bol bhi de, or agar nhi kregi to mujhe yahi lagega ki tujhe ye surpise achha nhi laga.</p>
     </div>
   );
 }
